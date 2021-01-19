@@ -9,5 +9,14 @@ function centuryFromYear(year) {
         return parseInt(year/100);
     else 
         return parseInt(year/100) +1;
-    
 }
+
+// second solution
+// function centuryFromYear(year) {
+//   let centuryCount = 0;
+//   while (year > 0){
+//     year = year - 100;
+//     centuryCount = centuryCount + 1;
+//   }
+//   return centuryCount;
+// }
